@@ -7,19 +7,12 @@
 
 body {
     font-family: 'MuseoModerno', cursive;
-    background-color: #F2F8F7;
+    background-color: #1F2021;
 }
 
-.nav {}
-
 .nav-link {
-    color: blue;
     font-size: large;
     font-weight: bold;
-}
-
-.nav-link {
-    color: #A9A29F;
 }
 
 .header {
@@ -31,6 +24,10 @@ body {
     position: relative;
     h1 {
         font-size: 3em;
+    }
+    .btn {
+        color: white;
+        background-color: #19ACF0;
     }
 }
 
@@ -55,10 +52,9 @@ body {
 
 .main {
     min-height: 30vh;
-    color: #0A73A3;
     .main__feature {
         background-color: #0A73A3;
-        border: 10px solid #172139;
+        border: 8px solid #F2F8F7;
         width: 15em;
         height: 15em;
         margin: 1.5em 0;
@@ -71,6 +67,10 @@ body {
             font-size: 1.5rem;
         }
     }
+}
+
+.footer__rrss {
+    filter: invert(100%);
 }
 
 // X-Small devices (portrait phones, less than 576px)
@@ -89,7 +89,7 @@ body {
     .nav,
     .footer,
     .main {
-        margin: 0 3em;
+        padding: 0 3em;
     }
 }
 
@@ -98,6 +98,6 @@ body {
     .nav,
     .footer,
     .main {
-        margin: 0 6em;
+        padding: 0 6em;
     }
 }

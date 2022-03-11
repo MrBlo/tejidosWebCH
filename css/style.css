@@ -6,15 +6,11 @@
 
 body {
   font-family: 'MuseoModerno', cursive;
-  background-color: #F2F8F7; }
+  background-color: #1F2021; }
 
 .nav-link {
-  color: blue;
   font-size: large;
   font-weight: bold; }
-
-.nav-link {
-  color: #A9A29F; }
 
 .header {
   font-size: 2em;
@@ -25,6 +21,9 @@ body {
   position: relative; }
   .header h1 {
     font-size: 3em; }
+  .header .btn {
+    color: white;
+    background-color: #19ACF0; }
 
 .header::before {
   content: "";
@@ -44,11 +43,10 @@ body {
   position: relative; }
 
 .main {
-  min-height: 30vh;
-  color: #0A73A3; }
+  min-height: 30vh; }
   .main .main__feature {
     background-color: #0A73A3;
-    border: 10px solid #172139;
+    border: 8px solid #F2F8F7;
     width: 15em;
     height: 15em;
     margin: 1.5em 0; }
@@ -59,14 +57,17 @@ body {
       color: #F2F8F7;
       font-size: 1.5rem; }
 
+.footer__rrss {
+  filter: invert(100%); }
+
 @media (min-width: 1200px) {
   .nav,
   .footer,
   .main {
-    margin: 0 3em; } }
+    padding: 0 3em; } }
 
 @media (min-width: 1400px) {
   .nav,
   .footer,
   .main {
-    margin: 0 6em; } }
+    padding: 0 6em; } }
