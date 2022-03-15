@@ -1,0 +1,40 @@
+.header-alternative {
+    font-size: 1.5em;
+    color: white;
+    margin: 1.5em 0;
+}
+
+.header {
+    font-size: 2em;
+    display: block;
+    height: 60vh;
+    width: 100%;
+    color: white;
+    position: relative;
+    h1 {
+        font-size: 3em;
+    }
+    .btn {
+        color: white;
+        background-color: #19ACF0;
+    }
+}
+
+.header::before {
+    content: "";
+    position: absolute;
+    object-fit: cover;
+    object-position: top center;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60vh;
+    background-image: url("../assets/img/background-img.jpg");
+    filter: blur(2px);
+}
+
+.header-inside {
+    /* This will make it stack on top of the ::before */
+    position: relative;
+}

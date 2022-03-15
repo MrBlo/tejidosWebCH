@@ -1,0 +1,47 @@
+.main {
+    color: whitesmoke;
+    min-height: 50vh;
+    .main__feature {
+        background-color: #0A73A3;
+        border: 8px solid #F2F8F7;
+        width: 15em;
+        height: 15em;
+        margin: 1.5em 0;
+        img {
+            width: 50%;
+            height: 50%;
+        }
+        p {
+            color: #F2F8F7;
+            font-size: 1.5rem;
+        }
+    }
+    .main__gallery {
+        .card {
+            width: 320px;
+            z-index: 1;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            transition-duration: 1s;
+            z-index: 2;
+        }
+        .card-img-overlay {
+            padding: 0;
+            .card-title-overlay {
+                padding: 5px 0;
+                background-color: gray;
+                opacity: 0.7;
+                width: 100%;
+                height: 40px;
+                .card-title {
+                    padding-top: 4px;
+                }
+            }
+        }
+    }
+    #carouselRopa {
+        width: 95%;
+        margin: 0 auto;
+    }
+}
