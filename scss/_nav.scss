@@ -2,3 +2,7 @@
     font-size: large;
     font-weight: bold;
 }
+
+.navbar-brand:hover {
+    @extend .zoom;
+}

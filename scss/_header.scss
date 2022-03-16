@@ -1,7 +1,7 @@
 .header-alternative {
     font-size: 1.5em;
-    color: white;
     margin: 1.5em 0;
+    color: map-get($colors, title-color);
 }
 
 .header {
@@ -9,7 +9,7 @@
     display: block;
     height: 60vh;
     width: 100%;
-    color: white;
+    color: map-get($colors, title-color);
     position: relative;
     h1 {
         font-size: 3em;

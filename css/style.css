@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=MuseoModerno:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.zoom, .navbar-brand:hover, .main .main__gallery .card:hover {
+  transform: scale(1.05);
+  transition-duration: 1s;
+  z-index: 2; }
+
 * {
   margin: 0;
   padding: 0;
@@ -14,15 +19,15 @@ body {
 
 .header-alternative {
   font-size: 1.5em;
-  color: white;
-  margin: 1.5em 0; }
+  margin: 1.5em 0;
+  color: whitesmoke; }
 
 .header {
   font-size: 2em;
   display: block;
   height: 60vh;
   width: 100%;
-  color: white;
+  color: whitesmoke;
   position: relative; }
   .header h1 {
     font-size: 3em; }
@@ -65,10 +70,6 @@ body {
   .main .main__gallery .card {
     width: 320px;
     z-index: 1; }
-  .main .main__gallery .card:hover {
-    transform: scale(1.05);
-    transition-duration: 1s;
-    z-index: 2; }
   .main .main__gallery .card-img-overlay {
     padding: 0; }
     .main .main__gallery .card-img-overlay .card-title-overlay {
@@ -79,21 +80,25 @@ body {
       height: 40px; }
       .main .main__gallery .card-img-overlay .card-title-overlay .card-title {
         padding-top: 4px; }
+  .main .faq {
+    color: #0A73A3; }
+  .main .btn-reset {
+    background-color: #DAECE8; }
   .main #carouselRopa {
     width: 95%;
     margin: 0 auto; }
 
 @media (min-width: 576px) {
   #carouselRopa {
-    width: 80%; } }
+    width: 80% !important; } }
 
 @media (min-width: 768px) {
   #carouselRopa {
-    width: 65%; } }
+    width: 65% !important; } }
 
 @media (min-width: 992px) {
   #carouselRopa {
-    width: 50%; } }
+    width: 50% !important; } }
 
 @media (min-width: 1200px) {
   .nav,
@@ -102,7 +107,7 @@ body {
   .main {
     padding: 0 3em; }
   #carouselRopa {
-    width: 35%; } }
+    width: 45% !important; } }
 
 @media (min-width: 1400px) {
   .nav,
@@ -111,7 +116,7 @@ body {
   .main {
     padding: 0 6em; }
   #carouselRopa {
-    width: 20%; } }
+    width: 40% !important; } }
 
 .footer__rrss {
   filter: invert(100%); }

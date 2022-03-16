@@ -1,21 +1,21 @@
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
     #carouselRopa {
-        width: 80%;
+        width: 80% !important;
     }
 }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
     #carouselRopa {
-        width: 65%;
+        width: 65% !important;
     }
 }
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
     #carouselRopa {
-        width: 50%;
+        width: 50% !important;
     }
 }
 
@@ -25,10 +25,10 @@
     .footer,
     .header-alternative,
     .main {
-        padding: 0 3em;
+        @include setPadding(0, 3em);
     }
     #carouselRopa {
-        width: 35%;
+        width: 45% !important;
     }
 }
 
@@ -38,9 +38,9 @@
     .footer,
     .header-alternative,
     .main {
-        padding: 0 6em;
+        @include setPadding(0, 6em);
     }
     #carouselRopa {
-        width: 20%;
+        width: 40% !important;
     }
 }
