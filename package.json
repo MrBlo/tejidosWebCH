@@ -1,7 +1,7 @@
 {
     "name": "tejidosdecarito",
     "version": "1.0.0",
-    "description": "",
+    "description": "Sitio web promocional para venta de articulos tejidos",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
@@ -13,5 +13,8 @@
     "devDependencies": {
         "node-sass": "^7.0.1",
         "nodemon": "^2.0.15"
+    },
+    "dependencies": {
+        "bootstrap": "^5.1.3"
     }
 }
