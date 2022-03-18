@@ -16,6 +16,9 @@
             font-size: 1.2rem;
         }
     }
+    .main__feature:hover {
+        @extend .zoom;
+    }
     .main__gallery {
         .card {
             width: 320px;

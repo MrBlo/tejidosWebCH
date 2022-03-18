@@ -7810,7 +7810,7 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
-.zoom, .navbar-brand:hover, .main .main__gallery .card:hover {
+.zoom, .main .main__feature:hover, .main .main__gallery .card:hover {
   transform: scale(1.05);
   transition-duration: 1s;
   z-index: 2; }
@@ -7824,11 +7824,12 @@ body {
   font-family: 'MuseoModerno', cursive;
   background-color: #1F2021; }
 
-.navbar-brand {
-  padding-bottom: 10px;
-  padding-top: 5px; }
-  .navbar-brand img {
-    width: 72px; }
+.navbar {
+  padding-top: 8px;
+  padding-bottom: 4px; }
+
+.navbar-brand img {
+  width: 56px; }
 
 .nav-link {
   font-size: large;
@@ -7917,6 +7918,8 @@ body {
     width: 65% !important; } }
 
 @media (min-width: 992px) {
+  .navbar-brand img {
+    width: 74px; }
   #carouselRopa {
     width: 50% !important; } }
 

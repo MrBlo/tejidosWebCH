@@ -1,16 +1,15 @@
+.navbar {
+    padding-top: 8px;
+    padding-bottom: 4px;
+}
+
 .navbar-brand {
-    padding-bottom: 10px;
-    padding-top: 5px;
     img {
-        width: 72px;
+        width: 56px;
     }
 }
 
 .nav-link {
     font-size: large;
     font-weight: bold;
-}
-
-.navbar-brand:hover {
-    @extend .zoom;
 }
