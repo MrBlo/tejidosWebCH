@@ -1,14 +1,18 @@
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
-    #carouselRopa {
-        width: 80% !important;
+    .main {
+        #carouselRopa {
+            width: 80%;
+        }
     }
 }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
-    #carouselRopa {
-        width: 65% !important;
+    .main {
+        #carouselRopa {
+            width: 65%;
+        }
     }
 }
 
@@ -19,33 +23,44 @@
             width: 74px;
         }
     }
-    #carouselRopa {
-        width: 50% !important;
+
+    .main {
+        #carouselRopa {
+            width: 50%;
+        }
     }
 }
 
 // X-Large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
+
     .nav,
     .footer,
     .header-alternative,
     .main {
         @include setPadding(0, 3em);
     }
-    #carouselRopa {
-        width: 45% !important;
+
+    .main {
+        #carouselRopa {
+            width: 45%;
+        }
     }
 }
 
 // XX-Large devices (larger desktops, 1400px and up)
 @media (min-width: 1400px) {
+
     .nav,
     .footer,
     .header-alternative,
     .main {
         @include setPadding(0, 6em);
     }
-    #carouselRopa {
-        width: 40% !important;
+
+    .main {
+        #carouselRopa {
+            width: 40%;
+        }
     }
 }

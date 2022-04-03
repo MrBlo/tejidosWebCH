@@ -7909,19 +7909,22 @@ body {
     width: 95%;
     margin: 0 auto; }
 
+.footer__rrss {
+  filter: invert(100%); }
+
 @media (min-width: 576px) {
-  #carouselRopa {
-    width: 80% !important; } }
+  .main #carouselRopa {
+    width: 80%; } }
 
 @media (min-width: 768px) {
-  #carouselRopa {
-    width: 65% !important; } }
+  .main #carouselRopa {
+    width: 65%; } }
 
 @media (min-width: 992px) {
   .navbar-brand img {
     width: 74px; }
-  #carouselRopa {
-    width: 50% !important; } }
+  .main #carouselRopa {
+    width: 50%; } }
 
 @media (min-width: 1200px) {
   .nav,
@@ -7929,8 +7932,8 @@ body {
   .header-alternative,
   .main {
     padding: 0 3em; }
-  #carouselRopa {
-    width: 45% !important; } }
+  .main #carouselRopa {
+    width: 45%; } }
 
 @media (min-width: 1400px) {
   .nav,
@@ -7938,8 +7941,5 @@ body {
   .header-alternative,
   .main {
     padding: 0 6em; }
-  #carouselRopa {
-    width: 40% !important; } }
-
-.footer__rrss {
-  filter: invert(100%); }
+  .main #carouselRopa {
+    width: 40%; } }
