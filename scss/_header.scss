@@ -1,11 +1,10 @@
 .header-alternative {
+    min-height: 20vh;
     margin: 1.2em 0;
     color: map-get($colors, title-color);
-    h1 {
-        font-size: 2.3rem;
-    }
-    h2 {
-        font-size: 1.7rem;
+    a{
+        color: map-get($colors, cyan-color);
+        font-weight: bold;
     }
 }
 
@@ -40,6 +39,5 @@
 }
 
 .header-inside {
-    /* This will make it stack on top of the ::before */
     position: relative;
 }

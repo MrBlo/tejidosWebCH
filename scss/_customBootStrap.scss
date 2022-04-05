@@ -1,7 +1,11 @@
 $navbar-dark-color: rgba(#e0c83d, .90);
 $navbar-dark-hover-color: #e0c83d;
+
 $carousel-control-color: #151854;
 $carousel-control-width: 10%;
 $carousel-control-opacity: .8;
 $carousel-control-hover-opacity: 1;
+
+$btn-font-size-lg: 2rem;
+$btn-border-width: 3.5px;
 @import "../node_modules/bootstrap/scss/bootstrap";
